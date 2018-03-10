@@ -1,0 +1,11 @@
+html, body {
+  font-family: arial;
+  margin: 0;
+}
+
+p {
+  color: #5d5c5c;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 1.2;
+}
