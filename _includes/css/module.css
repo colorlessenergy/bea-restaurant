@@ -1,14 +1,56 @@
 .carousel {
+  align-items: center;
   background-color: #dedede;
   display: flex;
+  height: 300px;
+  width: 86%;
 }
 
 .carousel__card {
   max-width: 33%;
 }
 
-.carousel__img {
-  width: 100%;
+.carousel__title {
+  color: #8c8b8b;
+  margin-left: 10px;
+}
+
+.carousel__card:first-of-type {
+  margin-left: 100px;
+}
+
+.carousel-modal {
+  align-items: center;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  height: 130px;
+  margin: 0 10px;
+  padding: 10px;
+}
+
+.carousel-modal p {
+  margin: 10px 0;
+}
+
+.carousel-modal__img {
+  width: 45%;
+  margin: 0 5px;
+}
+
+.carousel-modal__title {
+  color: #222;
+  font-size: 13px;
+}
+
+.carousel-modal__subtitle {
+  color: #c1bcbc;
+  font-size: 10px;
+}
+
+.carousel-modal__link {
+  color: #ffe38f;
+  font-size: 10px;
 }
 
 .split-40 {
