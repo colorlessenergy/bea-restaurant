@@ -94,12 +94,10 @@ p {
 }
 
 .split-40__img {
-  right: 10px;
-  position: relative;
   opacity: 0.9;
 
   height: 53%;
-  width: calc(100% + 10px);
+  width: 100%;
 }
 
 .split-40__text {
